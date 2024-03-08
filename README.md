@@ -32,6 +32,11 @@ Para executar o código desejado, é necessário que o script seja enviado para 
 $ qsub <NOME DO ARQUIVO>
 ```
 
+Para cancelar a execução de um job, basta usar qdel:
+```PowerShell
+$ qdel <ID DO JOB>
+```
+
 
 ## Status dos jobs
 
